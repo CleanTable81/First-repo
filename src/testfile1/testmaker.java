@@ -29,4 +29,5 @@ public class testmaker {
     
     public void setFirstQ(String newQ) {
         this.firstQ = newQ;
+    }
 }
