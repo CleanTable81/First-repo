@@ -11,7 +11,11 @@ package testfile1;
 public class testmaker {
     private int numQuest;
     private String firstQ;
-    testmaker(int numQuestions) {
+    
+    public testmaker() {
+        this.numQuest = 0;
+    }
+    public testmaker(int numQuestions) {
         this.numQuest = numQuestions;
     }
 
